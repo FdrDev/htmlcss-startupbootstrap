@@ -1,5 +1,18 @@
 body{
   background-color: cyan;
+  font-family: "Montserrat"
+}
+
+.bkg-green{
+  background-color: #00C79E;
+}
+
+.navright li{
+  display: inline-block;
+}
+
+.mynavbar{
+  margin-top: 13px;
 }
 
 .container80{
@@ -7,18 +20,90 @@ body{
   margin: auto;
 }
 
-.container-fluid{
-  height: 100px;
-}
-
-.navbar{
-  height: 100px;
-}
-
-header{
-  height: 100px;
-}
-
 .profilepic{
-  margin-top: 50px;
+  margin-top: 45px;
+}
+.header-text h1{
+  font-size: 55px;
+}
+
+.hrstar{
+  color: grey;
+  border-bottom: 2px solid grey;
+  width: 70%;
+}
+
+.header-text p{
+  font-size: 20px;
+}
+
+.portpic>img{
+  width:100%;
+  margin: 0 30px;
+}
+
+.portpic{
+  margin: 30px 0;
+}
+
+.about-text{
+  margin: 40px 0;
+}
+
+.about-text h2{
+  font-size: 50px;
+}
+
+.btn{
+  display: block;
+  margin: 15px auto;
+  width: 200px;
+  border: 1px solid white;
+  padding: 15px;
+  color:white;
+}
+
+.sendbtn{
+  width:60px;
+  border: 1px solid purple;
+  background-color: purple;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.sendbtn a{
+  color:white;
+}
+
+footer{
+  margin-top: 70px;
+  background-color: #2E3D54;
+}
+
+.ftr-txt{
+  margin-top: 35px;
+}
+
+.label{
+ font-size: 20px;
+}
+
+.label+p{
+  color:white;
+  margin-top: 30px;
+}
+
+.label+p i{
+  width: 40px;
+  height: 40px;
+  border: 3px solid white;
+  padding:10px;
+  border-radius: 50%;
+  margin: 0 1px;
+}
+
+.label+p i:hover{
+  background-color: white;
+  color:#2E3D54;
+  
 }
