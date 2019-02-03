@@ -14,6 +14,20 @@ nav{
   color:white;
 }
 
+.menu{
+  border: 1px solid white;
+  display: none;
+  padding: 5px;
+  border-radius: 3px;
+  text-transform: uppercase;
+
+}
+
+.menu:hover{
+  background-color: white;
+  color:#2E4051;
+}
+
 .navright li{
   display: inline-block;
   padding: 0 15px;
@@ -30,6 +44,7 @@ nav{
   margin-top: 13px;
   display: inline-block;
 }
+
 
 .container80{
   width: 80%;
@@ -55,7 +70,7 @@ nav{
 }
 
 hr:after {
-  content: "&#9829;";
+  content: "#&9829";
   left: 50%;
   position: absolute;
   transform: translateY(-50%) translateX(-50%);
@@ -176,4 +191,18 @@ footer{
     left:auto;
   }
 
+}
+
+@media screen and (max-width: 720px) {
+  .menu{
+    display: inline-block;
+  }
+
+  .navlogo{
+    margin-left: 10px;
+  }
+
+  .navright li{
+    display: none;
+  }
 }
